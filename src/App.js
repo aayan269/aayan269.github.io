@@ -1,20 +1,15 @@
-import React from 'react';
-import './App.css';
-import About from './components/About';
-import Header from './components/Header';
+import "./App.css";
+
+import Navbar from "./component/Navbar";
+
+import All from "./component/allPages";
 
 function App() {
   return (
-    <>
-    <Header/>
-    <main className='main'>
-    <About />
-    </main>
-    
-    </>
-      
-      
-  
+    <div className="App">
+      <Navbar />
+      <All/>
+    </div>
   );
 }
 
