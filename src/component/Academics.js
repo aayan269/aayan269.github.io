@@ -1,17 +1,101 @@
 import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { MdOutlineExitToApp } from 'react-icons/md';
 import patnaCollege from "../assets/patnaCollege.png"
 function Academics(props) {
   AOS.init();
   return (
     <div data-aos="fade-right" id="academics" className="my-5">
       <h1 className="text-center mb-5">
-        Academics <i class="fas fa-user-graduate ms-2"></i>
+        About Me <i class="fas fa-user-graduate ms-2"></i>
       </h1>
       {/* Mobile View */}
       <div>
-        <div className="row m-auto">
+
+
+      <div id="about" class="about section" className=" container d-none d-md-block">
+    <div className="card shadow p-3 mb-3 ">
+
+      <div className="card-body  d-flex justify-content-center ">
+        
+        
+        <div className=" col-md-5 text-align-center mt-4">
+            <h3>
+Hi Everyone, I am Aayan Ahmad from Patna, Bihar. I have completed my graduation in Bachelor of Business Administration Student from Patna College, Patna University.
+            </h3>
+        </div>
+        <div className="timeline-divider">
+          <div className="timeline-traveller">
+            <i class="fas fa-bus fa-2x"></i>
+          </div>
+        </div>
+        
+
+        <div className="check col-md-5  " >
+          <h4 className="mt-4">Apart from coding, some other activities that I love to do!</h4>
+          <MdOutlineExitToApp/><span style={{fontSize:"20px",marginLeft:"10px"}}>solving problems</span>
+          <br/>
+          <MdOutlineExitToApp/><span style={{fontSize:"20px",marginLeft:"10px"}}>watching Informative programms</span>
+          <br/>
+
+          <MdOutlineExitToApp/><span style={{fontSize:"20px",marginLeft:"10px"}}>Travelling</span>
+        </div>
+
+
+
+      </div>
+    </div>
+    </div>
+
+
+    <div className=" container d-xs-block d-sm-block   d-md-none">
+    <div className="card shadow p-3 mb-3 ">
+
+      <div className="card-body ">
+        
+        
+        <div className=" col-12 text-align-center mt-4">
+            <h3>
+Hi Everyone, I am Aayan Ahmad from Patna, Bihar. I have completed my graduation in Bachelor of Business Administration Student from Patna College, Patna University.
+            </h3>
+        </div>
+
+        
+
+        <div className=" col-12 mx-4" >
+          <h4 className="mt-4">Apart from coding, some other activities that I love to do!</h4>
+          <MdOutlineExitToApp/><span style={{fontSize:"20px",marginLeft:"10px"}}>solving problems</span>
+          <br/>
+          <MdOutlineExitToApp/><span style={{fontSize:"20px",marginLeft:"10px"}}>watching Informative programms</span>
+          <br/>
+
+          <MdOutlineExitToApp/><span style={{fontSize:"20px",marginLeft:"10px"}}>Travelling</span>
+        </div>
+
+
+
+      </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div className="row g-0 m-auto">
           <div className="col-sm-12  d-md-none mb-3">
             <div className="card shadow">
               <div className="card-header h4">BBA</div>

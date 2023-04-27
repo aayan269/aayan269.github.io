@@ -1,12 +1,12 @@
 import React from "react";
-import profile from "../assets/profile.jpeg"
-import AayanAhmadResume from "../assets/AayanAhmadResume.pdf"
+import profile from "../assets/profile.jpg";
+import AayanAhmadResume from "../assets/Aayan-Ahmad-Resume.pdf";
 import "../App.css";
 function Header(props) {
   return (
-    <div className="background">
+    <div id="home" className="background">
       <div className="container pt-5">
-        <div className="row">
+        <div className="row g-0">
           <div className="col-md-8 p-5">
             <h1 className="text-white">Hi, I'm Aayan Ahmad 👋</h1>
             <h3 className="text-white">FullSatck Developer</h3>
@@ -18,7 +18,7 @@ function Header(props) {
               <a
                 href={AayanAhmadResume}
                 className="btn btn-outline-warning ms-2 mt-2 "
-                download={AayanAhmadResume}
+                download={"AayanAhmadResume.pdf"}
               >
                 Download CV<i class="ms-2 fas fa-file"></i>
               </a>

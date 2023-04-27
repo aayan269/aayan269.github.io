@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar(props) {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark  " style={{position:"fixed",width:"100%",zIndex:"100"}}>
+    <nav id="nav-menu" className="navbar navbar-expand-lg navbar-dark  " style={{position:"fixed",width:"100%",zIndex:"100"}}>
       <div class="container">
         <a class="navbar-brand" href="#">
           Aayan Ahmad
@@ -32,13 +32,18 @@ function Navbar(props) {
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#academics">
-                Academics <span className=" ms-2 span"></span>
+                About Me <span className=" ms-2 span"></span>
               </a>
             </li>
 
             <li class="nav-item">
               <a class="nav-link" href="#projects">
                 Projects <span className=" ms-2 span"></span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="https://drive.google.com/file/d/10801Zi9IRPd_OB-Vo7qznzE3kl4fbV4b/view?usp=sharing">
+                Resume <span className=" ms-2 span"></span>
               </a>
             </li>
             <li class="nav-item">

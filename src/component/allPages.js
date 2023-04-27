@@ -4,7 +4,7 @@ import Academics from "./Academics";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Footer from "./Footer";
-
+import GithubCal from "./githubCal";
 
 export default function All(){
 
@@ -15,6 +15,7 @@ export default function All(){
       <Skills />
       <Academics />
       <Projects />
+      <GithubCal/>
       <Contact />
       <Footer />
         

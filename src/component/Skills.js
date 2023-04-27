@@ -5,8 +5,8 @@ import "aos/dist/aos.css";
 function Skills(props) {
   AOS.init();
   return (
-    <div id="skills" className="container">
-      <div className="row">
+    <div id="skills"  className="container">
+      <div className="row g-0">
         <div className="col-6 m-auto">
           <div className="card shadow text-center card-skills">
             <div className="p-3 h3 title">
@@ -17,7 +17,7 @@ function Skills(props) {
       </div>
       <div className="card shadow p-3 mb-3 ">
         <div className="card-body">
-          <div className="row ">
+          <div className="row g-0">
           <div className="col-md-4 d-flex flex-column align-items-center mt-4">
               <h4>
                 HTML5<i class="fab fa-html5 ms-2"></i>
@@ -58,7 +58,7 @@ function Skills(props) {
                 React Js <i class="fab fa-react ms-2"></i>
               </h4>
               <div data-aos="zoom-out" className="outerdiv">
-                <div className="seventy text-center text-white">70%</div>
+                <div className="eighty text-center text-white">80%</div>
               </div>
             </div>
             <div className="col-md-4 d-flex flex-column align-items-center my-4">
@@ -89,10 +89,17 @@ function Skills(props) {
                 Bootstrap<i class="fab fa-bootstrap ms-2"></i>
               </h4>
               <div data-aos="zoom-out" className="outerdiv">
-                <div className="ninety text-center text-white"> 90%</div>
+                <div className="seventy text-center text-white"> 70%</div>
               </div>
             </div>
-            
+            <div className="col-md-4 d-flex flex-column align-items-center mt-4">
+              <h4>
+                Chakra-UI<i class="fa-solid fa-bolt ms-2"></i>
+              </h4>
+              <div data-aos="zoom-out" className="outerdiv">
+                <div className="eighty text-center text-white"> 80%</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -28,7 +28,7 @@ function Contact(props) {
       <div className="container mt-3">
         <div className="card shadow">
           <div className="card-body">
-            <div className="row">
+            <div className="row g-0">
               <div className="col-md-4 text-center mt-5 mb-5">
                 <h3 className="text-center mb-2">Get In Touch</h3>
                 <span>

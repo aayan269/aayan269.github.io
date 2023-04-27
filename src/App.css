@@ -146,6 +146,9 @@
 .fa-car {
   transform: rotate(-90deg);
 }
+.fa-bus{
+  transform: rotate(-90deg);
+}
 hr {
   width: 30%;
   margin: auto;
@@ -161,4 +164,13 @@ hr {
 }
 .mb {
   margin-bottom: 5px;
+}
+
+.sp{
+  width:2px!important ;
+  height:300px!important;
+  background-color:black!important;
+}
+.check{
+  margin-left: 120px!important;
 }
