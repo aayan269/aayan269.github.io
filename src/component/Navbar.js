@@ -20,35 +20,35 @@ function Navbar(props) {
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">
+            <li class="nav-item" >
+              <a class="nav-link home" aria-current="page" href="#">
                 Home<span className=" ms-2 span"></span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#skills">
+              <a class="nav-link skills" href="#skills">
                 Skills <span className=" ms-2 span"></span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#academics">
+              <a class="nav-link about" href="#academics">
                 About Me <span className=" ms-2 span"></span>
               </a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#projects">
+              <a class="nav-link projects" href="#projects">
                 Projects <span className=" ms-2 span"></span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" target="_blank" href="https://drive.google.com/file/d/10801Zi9IRPd_OB-Vo7qznzE3kl4fbV4b/view?usp=sharing">
+              <a class="nav-link resume" target="_blank" href="https://drive.google.com/file/d/10801Zi9IRPd_OB-Vo7qznzE3kl4fbV4b/view?usp=sharing">
                 Resume <span className=" ms-2 span"></span>
               </a>
             </li>
             <li class="nav-item">
               <a
-                class="nav-link btn btn-outline-dark btn-sm rounded-pill"
+                class="nav-link contact btn btn-outline-dark btn-sm rounded-pill"
                 href="#connect"
               >
                 Connect <i class=" ms-2 fas fa-envelope-open-text"></i>
